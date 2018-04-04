@@ -27,6 +27,7 @@ defmodule Hammer.Supervisor do
       config
       |> Enum.map(fn {k, c} -> to_pool_spec(:"hammer_backend_#{k}_pool", c) end)
 
+    # TODO: remove this comment
     Supervisor.init(children, strategy: :one_for_one)
   end
 
