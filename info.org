@@ -1,0 +1,10 @@
+* More Information
+
+** Spacemacs website
+
+  http://spacemacs.org
+
+
+** Source-code
+
+  https://github.com/syl20bnr/spacemacs
